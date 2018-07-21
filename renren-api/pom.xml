@@ -53,7 +53,7 @@
 				<configuration>
 					<imageName>renren/api</imageName>
 					<dockerDirectory>${project.basedir}</dockerDirectory>
-					<dockerHost>tcp://47.105.47.111:2375</dockerHost>
+					<dockerHost>http://47.105.47.111:2375</dockerHost>
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>
